@@ -1,0 +1,91 @@
+/*
+Основной текст #757575
+Вторичный текст #212121
+акцент #2196F3
+белый текст #FFFFFF
+
+текст футера color: rgba(255, 255, 255, 0.6);
+*/
+.logo {
+  text-decoration: none;
+  color: #212121;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  inline-size: 1.2;
+}
+.accent {
+  color: #2196f3;
+}
+
+.site-nav .link {
+  text-decoration: none;
+  color: #212121;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.site-nav .current {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.header-contacts {
+  list-style: none;
+}
+
+.header-contacts .item {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+}
+
+.header-contacts .item:hover,
+.header-contacts .item:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.footer {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  background-color: #2f303a;
+}
+.footer-logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  inline-size: 1.2;
+}
+.address {
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.address-item {
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+
+.address-item:hover,
+.address-item:focus {
+  color: #2196f3;
+  text-decoration: underline;
+}

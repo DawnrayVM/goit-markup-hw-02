@@ -1,0 +1,13 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.list-title {
+  color: #212121;
+}
+
+.list-text {
+  color: #757575;
+}
