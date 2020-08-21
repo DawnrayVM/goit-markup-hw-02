@@ -1,20 +1,12 @@
-/*
-Основной текст #757575
-Вторичный текст #212121
-акцент #2196F3
-белый текст #FFFFFF
-
-текст футера color: rgba(255, 255, 255, 0.6);
-*/
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--secondary-text-color);
+  background-color: var(--pure-white-color);
   font-family: Roboto;
   letter-spacing: 0.03em;
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 
 .hero-title {
@@ -22,24 +14,21 @@ body {
   font-family: Roboto;
   font-weight: 700;
   font-size: 44px;
-  color: #ffffff;
+  color: var(--pure-white-color);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
-.hero-link {
-  text-decoration: none;
-  text-align: center;
-  font-family: Roboto;
+.hero-btn {
   font-weight: 700;
   font-size: 16px;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--pure-white-color);
+  background-color: var(--main-accent);
 }
 
 .section .item-title {
-  color: #212121;
+  color: var(--primary-text-color);
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -49,13 +38,13 @@ body {
 }
 
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
   font-size: 36px;
   font-weight: 700;
 }
 
 .team-name {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 500;
 }
 

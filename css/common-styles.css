@@ -1,26 +1,36 @@
 /*
-Основной текст #757575
-Вторичный текст #212121
-акцент #2196F3
-белый текст #FFFFFF
-
-текст футера color: rgba(255, 255, 255, 0.6);
+Основной цвет текста: #212121
+Вторичный цвет текста: #757575
+Основной акцент: #2196F3
+Белый текст и основной фон: #FFFFFF
+Цвет текста футера: rgba(255, 255, 255, 0.6);
+Вторичный цвет фона: #2F303A
 */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-accent: #2196f3;
+  --pure-white-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-bg-color: #2f303a;
+}
+
 .logo {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   inline-size: 1.2;
 }
 .accent {
-  color: #2196f3;
+  color: var(--main-accent);
 }
 
 .site-nav .link {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -28,11 +38,11 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--main-accent);
 }
 
 .site-nav .current {
-  color: #2196f3;
+  color: var(--main-accent);
 }
 .list {
   list-style: none;
@@ -46,12 +56,12 @@
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .header-contacts .item:hover,
 .header-contacts .item:focus {
-  color: #2196f3;
+  color: var(--main-accent);
   text-decoration: underline;
 }
 
@@ -59,11 +69,11 @@
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  background-color: #2f303a;
+  background-color: var(--secondary-bg-color);
 }
 .footer-logo {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--pure-white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -72,7 +82,7 @@
 .address {
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  color: var(--pure-white-color);
   letter-spacing: 0.03em;
 }
 
@@ -81,11 +91,11 @@
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
-  color: #757575;
+  color: var(--footer-text-color);
 }
 
 .address-item:hover,
 .address-item:focus {
-  color: #2196f3;
+  color: var(--main-accent);
   text-decoration: underline;
 }

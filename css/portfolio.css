@@ -5,9 +5,9 @@ body {
   letter-spacing: 0.03em;
 }
 .list-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .list-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
